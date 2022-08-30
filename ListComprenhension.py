@@ -28,6 +28,9 @@ print(newList5)
 newList6 = ["Hello" for x in fruits]
 print(newList6)
 
+newList7=[x.upper() for x in fruits]
+print(newList7)
+
 x = [x for x in range(21)]
 
 y = [i for i in x if i%2==0]
