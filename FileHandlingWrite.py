@@ -10,4 +10,5 @@ with open("C:/Users/ibrah/PycharmProjects/FileHandlingTestFile_3.txt","w") as fi
     file.write("Hello, Eppadi Irukinga")
 
 
+
 # Advantage of "with" block is we do not need to mention file.close() explicitly

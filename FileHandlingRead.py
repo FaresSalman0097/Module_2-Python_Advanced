@@ -8,6 +8,9 @@ print(file.read())
     print(each)'''
 # Print the values in the form of list
 '''print(file.readlines())'''
+# Print the data line by line
+print(file.readline()) # Reads the first line
+print(file.readline()) # Reads the 1st and next lines and so on
 # Prints till the value of index
 # print(file.read(4))
 
