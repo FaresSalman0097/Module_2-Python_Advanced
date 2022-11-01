@@ -31,6 +31,7 @@ sheet.cell_value(0, 0)
 
 for i in range(1, 11):
     l.append(tuple(sheet.row_values(i)))
+
 # insert
 q = "insert into Amazon_Products(Product_Id,Product_Name,Brand,Category,Price)values(%s,%s,%s,%s,%s)"
 

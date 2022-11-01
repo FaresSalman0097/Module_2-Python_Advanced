@@ -6,5 +6,5 @@ class Car():
     def mileageOfCar(self,kms,lit):
         mileageOFTheCar = kms/lit
         print(mileageOFTheCar)
-obj=Car(100,5)
+obj=Car()
 obj.mileageOfCar(100,5)
